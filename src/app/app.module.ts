@@ -8,6 +8,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { CharacterComponent } from './components/character/character.component';
 import { MoreCharsButtonsetComponent } from './components/more-chars-buttonset/more-chars-buttonset.component';
+import { ChuckNorrisJokeComponent } from './components/chuck-norris-joke/chuck-norris-joke.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { MoreCharsButtonsetComponent } from './components/more-chars-buttonset/m
     SearchfieldComponent,
     CharacterComponent,
     MoreCharsButtonsetComponent,
+    ChuckNorrisJokeComponent,
   ],
   imports: [BrowserModule, ReactiveFormsModule, HttpClientModule],
   providers: [],
